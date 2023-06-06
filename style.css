@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+    margin:0px;
+    padding:0px;
+    font-family: 'Inter', sans-serif;
+}
+body {
+    background-color: #0A0C1B;
+    width:1440px;
+    height:800px;
+}
+.main_container {
+    width:1100px;
+    height:450px;
+    position:absolute;
+    top:180px;
+    left:165px;
+    display:flex;
+}
+.text_container {
+    background-color: #1C1938;
+    color:white;
+    padding: 70px 90px 70px 70px;
+    border-radius:10px 0px 0px 10px;
+}
+.header h1 {
+    font-family: 'Inter', sans-serif;
+    font-weight: 800;
+    font-size:2.2rem;
+    
+}
+.insights {
+    font-family: 'Lexend Deca', sans-serif;
+    color:#A85CD8;
+}
+.info {
+    color:hsla(0, 0%, 100%, 0.75);
+    font-family: 'Inter', sans-serif;
+    padding:20px 30px 20px 0px;
+    line-height: 1.8;
+    font-size:15px;
+    
+}
+.bottom_container {
+    display:flex;
+    padding:50px 55px 45px 0px;
+    justify-content: space-between;
+
+}
+
+.companies h5{
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:5px 0px 5px 0px ;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.templates h5{
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:5px 0px 5px 0px ;
+}
+
+.queries h5{
+    color:hsla(0, 0%, 100%, 0.75);
+    padding:5px 0px 5px 0px ;
+}
+.image_container {
+    position: relative;
+    display: inline-block;
+    border-radius:0px 10px 10px 0px;
+  }
+  
+  .image_container img {
+    filter: grayscale(100%);
+    border-radius:0px 10px 10px 0px;
+  }
+  .image_container .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: hsl(277, 64%, 61%);
+    mix-blend-mode: color;
+    opacity: 0.9; /* Adjust the opacity as desired */
+  }
+
